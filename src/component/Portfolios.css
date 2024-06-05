@@ -31,3 +31,8 @@
   .Portfolios-title {
     padding: 2em;
   }
+
+  .card-img-top {
+    width: 100%;
+    object-fit: cover;
+  }
