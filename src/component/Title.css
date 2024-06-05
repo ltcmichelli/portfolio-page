@@ -3,18 +3,64 @@
     background-image: url("../img/bg.JPG");
   
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 100vh;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  .Headline {
-    padding: 8em 1em 1em 1em;
-    margin: auto;
+
     color: white;
     text-shadow: 2px  2px  4px  grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  
+.LinkedIn {
+    font-size: 30px;
+    color: white;
+}
+
+.GoTo {
+    position: absolute;
+    bottom: 2em;
+    font-size: 30px;
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* @media screen and (min-width: 601px) {
+    .Headline {
+      font-size: 4vw;
+    }
+  } */
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  /* @media screen and (max-width: 600px) {
+    .Headline {
+      font-size: 7vw;
+    }
+  } */
