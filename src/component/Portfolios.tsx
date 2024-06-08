@@ -11,7 +11,7 @@ function Portfolios() {
                 <h1 className="Portfolios-title">Portfolios</h1>
                 <Container>
                     <Row className="Portfolios-row">
-                        <Col>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/01-mockup.png" />
                                 <Card.Body>
@@ -25,7 +25,7 @@ function Portfolios() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/02-mockup.png" />
                                 <Card.Body>
@@ -40,7 +40,7 @@ function Portfolios() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/03-mockup.png" />
                                 <Card.Body>
@@ -58,7 +58,7 @@ function Portfolios() {
                         </Col>
                     </Row>
                     <Row className="Portfolios-row">
-                        <Col>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/04-design.png" />
                                 <Card.Body>
@@ -66,10 +66,12 @@ function Portfolios() {
                                 <p><b>United College Drama Club Card design</b></p>
                                 <p>(Jul 2016)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#Graphic Design</span>
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/05-design.png" />
                                 <Card.Body>
@@ -77,23 +79,27 @@ function Portfolios() {
                                 <p><b>T shirt design of 2016 CUHK drama competition</b></p>
                                 <p>(Oct 2016)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#Graphic Design</span>
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/06-design.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                <p><b>T shirt design of United College drama club annual performance 2017</b></p>
+                                <p><b>T shirt design of UCDC annual performance 2017</b></p>
                                 <p>(Jul 2017)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#Graphic Design</span>
                                 </Card.Body>
                             </Card>
                         </Col>
                     </Row>
                     <Row className="Portfolios-row">
-                        <Col xs={4}>
+                        <Col xs={12} sm={4} className='Portfolios-col'>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/07-design.png" />
                                 <Card.Body>
@@ -101,6 +107,8 @@ function Portfolios() {
                                 <p><b>Medicare (UI design)</b></p>
                                 <p>(May 2018)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#UI design</span>
                                 </Card.Body>
                             </Card>
                         </Col>
