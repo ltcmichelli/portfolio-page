@@ -32,6 +32,28 @@
     padding: 2em;
   }
 
-  .Education {
+  .About-subtitle {
     text-align: left;
   }
+
+  .vl {
+    border-left: 3px solid white;
+    height: 40px;
+    position: absolute;
+    margin-left: -10px;
+  }
+
+  @media (max-width: 767px) { 
+    .About-subtitle {
+      text-align: left;
+      padding-left: 2em !important;
+    }
+   }
+
+  @media (min-width: 768px) and (max-width: 1500px) { 
+    .Row-samll {
+      padding-bottom: 1em;
+      font-size: 20px;
+    }
+
+   }
