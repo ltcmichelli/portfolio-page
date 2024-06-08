@@ -45,3 +45,43 @@
   .card-body {
     height: 180px;
   }
+
+  @media (max-width: 424px) { 
+    .Headline {
+      font-size: 40px;
+      font-weight:normal;
+      line-height:1;
+      padding: 1em;
+    }
+
+    .LinkedIn {
+      font-size: 30px;
+      color: white;
+  }
+  
+    .GoTo {
+        position: absolute;
+        bottom: 2em;
+        font-size: 30px;
+        color: white;
+    }
+   }
+
+  @media (min-width: 424px) and (max-width: 767px) { 
+    /* .card-body {
+      height: 250px;
+    } */
+   }
+
+  @media (min-width: 767px) and (max-width: 991px) { 
+    .card-body {
+      height: 200px;
+    }
+   }
+
+  @media (min-width: 991px) { 
+    .card-body {
+      height: 180px;
+    }
+  
+   }
