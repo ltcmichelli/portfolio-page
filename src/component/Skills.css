@@ -9,8 +9,13 @@
     color: white;
   }
 
-.Skill-row {
-    padding-top: 0.5em;
+
+.Skill-title {
+    padding: 2em;
+  }
+
+.Skill-col {
+    padding-bottom: 1em;
 }
 
 .progress {

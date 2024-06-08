@@ -9,7 +9,7 @@ function Skills() {
                 <h1 className="Skill-title">Skills</h1>
                 <Container className='Skill-set'>
                     <Row className='Skill-row'>
-                        <Col>
+                        <Col xs={12} sm={6} className='Skill-col'>
                         <h5>Backend Development</h5>
                         <div className="progress">
                             <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}>Java</div>
@@ -24,7 +24,7 @@ function Skills() {
                             <div className="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}>Solace PubSub+</div>
                         </div>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={6} className='Skill-col'>
                         <h5>Frontend Development</h5>
                         <div className="progress">
                             <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}>JavaScript</div>
@@ -41,7 +41,7 @@ function Skills() {
                         </Col>
                     </Row>
                     <Row className='Skill-row'>
-                        <Col>
+                        <Col xs={12} sm={6} className='Skill-col'>
                         <h5>Database</h5>
                         <div className="progress">
                             <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}>MySQL</div>
@@ -53,7 +53,7 @@ function Skills() {
                             <div className="progress-bar" role="progressbar" style={{width: '30%'}} aria-valuenow={30} aria-valuemin={0} aria-valuemax={100}>MongoDB</div>
                         </div>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={6} className='Skill-col'>
                         <h5>Spoken Languages</h5>
                         <div className="progress">
                             <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}>Cantonese</div>
@@ -67,7 +67,7 @@ function Skills() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col xs={12} sm={6} className='Skill-col'>
                         <h5>Other Technical Expericence</h5>
                         <span className="badge bg-light text-dark">#Debezium(Change data capture)</span>
                         <span className="badge bg-light text-dark">#Swagger Hub</span>
@@ -77,6 +77,9 @@ function Skills() {
                         <span className="badge bg-light text-dark">#Jenkins</span>
                         <span className="badge bg-light text-dark">#Sonarqube</span>
                         <span className="badge bg-light text-dark">#K6 Load Testing</span>
+                        <span className="badge bg-light text-dark">#Agile Development</span>
+                        <span className="badge bg-light text-dark">#TDD</span>
+                        <span className="badge bg-light text-dark">#User Interface Design</span>
                         </Col>
                         <Col>
                         </Col>
