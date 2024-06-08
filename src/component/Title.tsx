@@ -3,7 +3,7 @@ import './Title.css';
 function Title() {
     return (
         <div className="Parallax-cover">
-        <h1 className='Headline'>Hello, I am Michelle Li</h1>
+        <div className='Headline'>Hello, I am Michelle Li</div>
         <div className='LinkedIn'>
             <a href="https://www.linkedin.com/in/michelle-li-855990155/" target="_blank">
                 <i className="bi bi-linkedin"></i>

@@ -10,15 +10,18 @@ function Portfolios() {
             <div className="Portfolios-content">
                 <h1 className="Portfolios-title">Portfolios</h1>
                 <Container>
-                    <Row>
+                    <Row className="Portfolios-row">
                         <Col>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/01-mockup.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>Catch Me if You Can</b></p>
+                                <p>(Nov to Dec 2017)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#Cordova</span>
+                                <span className="badge bg-secondary">#JavaScript</span>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -27,9 +30,13 @@ function Portfolios() {
                                 <Card.Img variant="top" src="/portfolios/02-mockup.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>FoodStep</b></p>
+                                <p>(Oct 2018 to Apr 2019)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#Node.js</span>
+                                <span className="badge bg-secondary">#JavaScript</span>
+                                <span className="badge bg-secondary">#Firebase</span>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -38,21 +45,26 @@ function Portfolios() {
                                 <Card.Img variant="top" src="/portfolios/03-mockup.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>Easy Park</b></p>
+                                <p>(Apr 2020)</p>
                                 </Card.Text>
+                                <hr/>
+                                <span className="badge bg-secondary">#Java</span>
+                                <span className="badge bg-secondary">#Spring Boot</span>
+                                <span className="badge bg-secondary">#JavaScript</span>
+                                <span className="badge bg-secondary">#React</span>
                                 </Card.Body>
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="Portfolios-row">
                         <Col>
                             <Card className="Portfolios-card">
-                                <Card.Img variant="top" src="/portfolios/04-design.jpg" />
+                                <Card.Img variant="top" src="/portfolios/04-design.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>United College Drama Club Card design</b></p>
+                                <p>(Jul 2016)</p>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -62,8 +74,8 @@ function Portfolios() {
                                 <Card.Img variant="top" src="/portfolios/05-design.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>T shirt design of 2016 CUHK drama competition</b></p>
+                                <p>(Oct 2016)</p>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -73,21 +85,21 @@ function Portfolios() {
                                 <Card.Img variant="top" src="/portfolios/06-design.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>T shirt design of United College drama club annual performance 2017</b></p>
+                                <p>(Jul 2017)</p>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="Portfolios-row">
                         <Col xs={4}>
                             <Card className="Portfolios-card">
                                 <Card.Img variant="top" src="/portfolios/07-design.png" />
                                 <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                <p><b>Medicare (UI design)</b></p>
+                                <p>(May 2018)</p>
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
