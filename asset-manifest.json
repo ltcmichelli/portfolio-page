@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-page/static/css/main.e1664aa5.css",
+    "main.js": "/portfolio-page/static/js/main.8f62352a.js",
+    "static/js/453.241f0b5b.chunk.js": "/portfolio-page/static/js/453.241f0b5b.chunk.js",
+    "static/media/bg.JPG": "/portfolio-page/static/media/bg.a7b6566e908589509f1c.JPG",
+    "static/media/bg3.JPG": "/portfolio-page/static/media/bg3.f75160246f3df61dcce1.JPG",
+    "static/media/bg2.JPG": "/portfolio-page/static/media/bg2.9c61d38ef0d6a89f093b.JPG",
+    "static/media/01-mockup.png": "/portfolio-page/static/media/01-mockup.a3737a021edd46aac5b2.png",
+    "static/media/07-design.png": "/portfolio-page/static/media/07-design.daf85c3e4e60146fccd4.png",
+    "static/media/02-mockup.png": "/portfolio-page/static/media/02-mockup.a8fe702328c94c808e2e.png",
+    "static/media/04-design.png": "/portfolio-page/static/media/04-design.4428879944c6a45e0df6.png",
+    "static/media/03-mockup.png": "/portfolio-page/static/media/03-mockup.d4a14df433e06c58fdb9.png",
+    "static/media/bootstrap-icons.woff?": "/portfolio-page/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio-page/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/05-design.png": "/portfolio-page/static/media/05-design.4fde2fab4f52a7d38a1c.png",
+    "static/media/06-design.png": "/portfolio-page/static/media/06-design.055df3bf3a92e16405de.png",
+    "index.html": "/portfolio-page/index.html",
+    "main.e1664aa5.css.map": "/portfolio-page/static/css/main.e1664aa5.css.map",
+    "main.8f62352a.js.map": "/portfolio-page/static/js/main.8f62352a.js.map",
+    "453.241f0b5b.chunk.js.map": "/portfolio-page/static/js/453.241f0b5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1664aa5.css",
+    "static/js/main.8f62352a.js"
+  ]
+}
