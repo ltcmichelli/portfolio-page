@@ -18,6 +18,7 @@ function App() {
       <section id="portfolios_section">
         <Portfolios/>
       </section>
+        {/* © 2020 | All Rights Reserved */}
     </div>
   );
 }

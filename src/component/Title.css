@@ -1,9 +1,17 @@
 .Parallax-cover {
+  /* Set a specific height */
+  min-height: 100vh;
+      
+  color: white;
+  text-shadow: 2px  2px  4px  grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
     /* The image used */
     background-image: url("../img/bg.JPG");
-  
-    /* Set a specific height */
-    min-height: 100vh;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -13,16 +21,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    color: white;
-    text-shadow: 2px  2px  4px  grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
-  Parallax:after{
+  body:after{
     content:"";
     position:fixed; /* stretch a fixed position to the whole screen */
     top:0;
