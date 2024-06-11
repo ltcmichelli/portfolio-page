@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 
 function About() {
     return (
-        <div className='container'>
         <div className="Parallax-cover2">
             <div className="About-content">
                 <h1 className="About-title">About Me</h1>
@@ -65,7 +64,6 @@ function About() {
                     <br></br>
                 </Container>
             </div>
-        </div>
         </div>
   );
 }
