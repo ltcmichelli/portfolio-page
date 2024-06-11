@@ -6,6 +6,8 @@ import Skills from './component/Skills';
 import Portfolios from './component/Portfolios';
 
 function App() {
+  var year: number = new Date().getFullYear();
+
   return (
     <div className="App">
       <Title/>
@@ -18,7 +20,10 @@ function App() {
       <section id="portfolios_section">
         <Portfolios/>
       </section>
-        {/* © 2020 | All Rights Reserved */}
+      <div className='App-footer'>
+        <p>© {year} | All Rights Reserved</p>
+      </div>
+        
     </div>
   );
 }
